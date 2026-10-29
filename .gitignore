@@ -1,0 +1,12 @@
+# Raw data: link to the source instead of committing it
+*.csv
+*.xlsx
+*.zip
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# macOS
+.DS_Store

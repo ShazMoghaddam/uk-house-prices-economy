@@ -1,0 +1,31 @@
+name: Idea suggestion
+description: Suggest a question or dataset linking house prices to the economy
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: The question
+      description: What would you like to find out about house prices and the economy?
+      placeholder: e.g. Do house prices rise faster in places where more jobs are created?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to useful data (if you know one)
+      placeholder: https://
+  - type: input
+    id: publisher
+    attributes:
+      label: Who publishes it?
+      placeholder: e.g. ONS, Bank of England, HM Land Registry
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks (if you've suggested data)
+      options:
+        - label: It's free and openly licensed (e.g. Open Government Licence)
+        - label: It can be downloaded without an account
+        - label: It opens on a normal laptop
